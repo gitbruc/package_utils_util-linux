@@ -24,7 +24,7 @@ jobs:
           
       - name: Sync with upstream repository
         run: |
-          git remote add upstream https://github.com/gitbruc/package_utils_util-linux
+          git remote add upstream https://github.com/sbwml/package_utils_util-linux
           git fetch upstream
           git merge upstream/openwrt-25.12
           git push
